@@ -41,6 +41,9 @@ phases:
         comparisonStrategy: COMPARE_WITH_PREVIOUS
         executeWithPreviousSteps: false
         hostnameTemplate: ${instance.hostName}
+        templateUuid: null
+        templateVariables: null
+        templateVersion: null
         tierId: '14'
         timeDuration: '10'
     stepsInParallel: false
